@@ -12,7 +12,7 @@
 
 #include "functions.h"
 
-void printFullDeck(card deck[], int size){
+void printFullDeck(card deck[], int size){  //Prints full deck
     for(int i = 0; i < size; i++){
         printf("%s %d %s\n", deck[i].color, deck[i].value, deck[i].action);
     }
